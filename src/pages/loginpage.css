@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,600;1,700;1,800&family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
+
+:root {
+	--ion-color-purple: #6060dc;
+	--ion-color-purple-rgb: 96,96,220;
+	--ion-color-purple-contrast: #ffffff;
+	--ion-color-purple-contrast-rgb: 255,255,255;
+	--ion-color-purple-shade: #5454c2;
+	--ion-color-purple-tint: #7070e0;
+}
+
+.ion-color-purple {
+	--ion-color-base: var(--ion-color-purple);
+	--ion-color-base-rgb: var(--ion-color-purple-rgb);
+	--ion-color-contrast: var(--ion-color-purple-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-purple-contrast-rgb);
+	--ion-color-shade: var(--ion-color-purple-shade);
+	--ion-color-tint: var(--ion-color-purple-tint);
+}
+
+.title{
+  font-size: 2rem;
+  margin-bottom: 5px;
+  
+  font-family: 'Roboto', sans-serif;
+}
+
+.input1{
+  display: inline-block;
+  justify-content: center;
+  width: 300px;
+  margin-bottom: 15px;
+  border: 2px solid #222222;
+  border-radius: 5px;
+  
+}
+.input2{
+  display: inline-block;
+  justify-content:center;
+  width: 300px;
+  border: 2px solid #222222;
+  border-radius: 5px;
+  z-index: 1;
+}
+.eye{
+  z-index: 9999;
+	position: absolute;
+  margin-top: 15px;
+  margin-right: 10px;
+  right: 100px;
+}
+.button{
+  margin:25px;
+  margin-top: 50px;
+  
+}
+
+
+.card {
+  position: relative;
+  top: 20%;
+  left: 60%;
+  width: 500px;
+  /* --background: url(../img/assign.jpg) no-repeat center/cover fixed; */
+  transition: all 0.15s ease;
+  border: 2px solid #642ec7;
+  border-radius: 7%;
+  z-index: -1;
+}
+.card:hover{
+transform: scale(1.05);
+box-shadow: 0 0 40px  #632ec760; 
+}
+
+
+.content {
+  --background: url(../img/assign.jpg) no-repeat center/cover fixed;
+}
+
+.input-container{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-left: 25px;
+}
+.label{
+  margin-bottom: 5px;
+  float: left;
+  font-size:small;
+  color:#494848;
+}
+.header{
+  padding-top:70px;
+  padding-bottom:40px;
+}
+.login{
+  padding: 0 15px;
+}
